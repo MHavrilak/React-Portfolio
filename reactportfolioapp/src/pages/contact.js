@@ -7,16 +7,18 @@ import Form from "../components/Form";
 
 function Contact() {
     return(
-        <NavBar />
-        // <Container>
         <div>
+        <NavBar />
+        {/* // <Container>
+        */}
             <Row>
-                <Col>
+                <Col size="sm-12">
                 <Form />
                 </Col>
             </Row>
-            </div>
-        </Container>
+           
+        {/* </Container> */}
+         </div>
     )
 }
 
