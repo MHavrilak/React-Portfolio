@@ -1,9 +1,10 @@
 import React from "react";
+import "./style.css";
 
 function Portfolio() {
     return (
         <div>
-            <div id="main-container" class="container">
+            <div id="main-container" className="container">
                 <section className="main-section">
                      <h1>Portfolio</h1>
                 <div className="work">

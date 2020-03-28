@@ -1,12 +1,12 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" id="logo" href="#">Mike Havrilak</a>
+      <a className="navbar-brand" id="logo" href="/">Mike Havrilak</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 
@@ -15,16 +15,16 @@ function Navbar() {
             <div className="collapse navbar-collapse nav" id="navbarNav">
                 <ul className="navbar-nav">
                      <li className="nav-item active">
-                        <a className="nav-link" href="/index.js"><span className="sr-only">About</span></a>
+                        <Link className="nav-link" to="/index.js"><span className="sr-only">Mike Havrilak</span></Link>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link" href="/about.js">About <span className="sr-only">About</span></a>
+                        <Link className="nav-link" to="/about">About <span className="sr-only">About</span></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/portfolio.js">Portfolio</a>
+                        <Link className="nav-link" to="/portfolio">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/contact.js">Contact</a>
+                        <Link className="nav-link" to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>

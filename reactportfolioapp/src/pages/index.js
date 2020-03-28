@@ -10,14 +10,19 @@ function Welcome() {
     return (
         // <div className="welcome-image" href="../public<Assets/Images/background.mp4">Welcome</div>
         // <Container>
-        
+        <>
+        <div id="container">
             <Row>
+               
                 <Col size="sm-12">
                     <NavBar /> 
                     <Hero backgroundImage="../public/Assets/Images/background.mp4" />  
-                    <Footer />     
+                         
                 </Col>
             </Row>
+        </div>
+        <Footer />
+        </>
             
         // </Container>
     )
