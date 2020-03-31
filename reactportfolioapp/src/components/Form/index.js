@@ -1,30 +1,11 @@
 import React from "react";
+import "./style.css";
 
 function contactForm() {
   return (
-    //             <Form>
-    //   <Form.Group controlId="Name">
-    //     <Form.Label>Name</Form.Label>
-    //     <Form.Control type="text" placeholder="Name" />
-    //   </Form.Group>
-
-    //   <Form.Group controlId="Email">
-    //     <Form.Label>Email</Form.Label>
-    //     <Form.Control type="text" placeholder="Email" />
-    //   </Form.Group>
-
-    //   <Form.Group controlId="Message">
-    //       <Form.label>Message</Form.label>
-    //       <Form.Control type="text" placeholder="Message" />
-    //   </Form.Group>
-
-
-    //   <Button variant="primary" type="submit">
-    //     Submit
-    //   </Button>
-    // </Form>
-   
-    <form>
+    <div className="container" id="main-container">
+      <h1> Contact</h1>
+    <form className="main-section">
     <div className="form-group">
       <label for="username">Name</label>
       <input type="text" className="form-control" id="username" aria-describedby="Name"/>
@@ -38,7 +19,11 @@ function contactForm() {
           <input type="text" className="form-control" id="usermessage"/>
        </div>
           <button type="submit" className="btn btn-primary">Submit</button>
-      </form>       
-        )
+          <p><a href="https:https://www.linkedin.com/in/mike-havrilak-96b1548/" target="_blank"><i className="fab fa-linkedin"></i>Linkedin</a></p>
+          <p><a href="https://github.com/MHavrilak" target="_blank"><i className="fab fa-github-square"></i>Github</a></p>   
+      </form> 
+      </div>   
+         )        
+          
 }
 export default contactForm;

@@ -2,3 +2,62 @@ img {
     height:200px;
     width: 200px;
 }
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    border-width: ;
+}
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 20px;
+}
+
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  .work img {
+    max-width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
