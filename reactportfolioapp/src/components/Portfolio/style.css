@@ -31,7 +31,7 @@ h1 {
 h1,
 h2,
 h3,
-h4 {
+h5 {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 700;
   color: black;
@@ -43,7 +43,7 @@ h4 {
   }
 
   .work h3 {
-    position: absolute;
+    /* position: absolute; */
     bottom: 20px;
     width: 100%;
     padding: 15px;

@@ -37,10 +37,15 @@
   }
 } */
 
-body {
+/* body {
   background-color: lightgray;
+} */
+
+html {
+  scroll-behavior: smooth;
 }
-footer {
+
+/* footer {
   padding: 10px 0;
   clear: both;
   font-size: 12px;
@@ -50,4 +55,4 @@ footer {
   background: #666666;
   border-top: 2px solid black;
   height: 50px;
-}
+} */

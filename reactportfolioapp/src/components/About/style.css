@@ -4,7 +4,9 @@
     margin: 0 auto;
     clear: both;
     border-width: ;
-    
+    position: relative;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+          
 }
 h1,
 h2,
@@ -17,8 +19,8 @@ h3 {
 h1 {
     padding-bottom: 20px;
     font-size: 30px;
-    line-height: 49px;
-    border-bottom: 3px solid #dddddd;
+    line-height: 49px; 
+     border-bottom: 3px solid #dddddd;
   }
 
 * {
@@ -28,7 +30,9 @@ h1 {
 #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
-  }
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+ }
+
   .auth-image {
     float: left;
     max-width: 33%;
