@@ -1,3 +1,13 @@
 nav {
     z-index: 100;
 }
+
+#linkedin {
+    float:right;
+    padding: 5px
+}
+
+#github {
+    float: right;
+    padding: 5px;
+}

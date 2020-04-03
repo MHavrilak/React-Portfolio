@@ -27,8 +27,8 @@ function Navbar() {
                         <Link className="nav-link" to="/contact">Contact</Link>
                     </li>
                 </ul>
-                <p><a href="https:https://www.linkedin.com/in/mike-havrilak-96b1548/" target="_blank"><i className="fab fa-linkedin"></i>Linkedin</a></p>
-                <p><a href="https://github.com/MHavrilak" target="_blank"><i className="fab fa-github-square"></i>Github</a></p>   
+                <p><a id="linkedin" href="https:https://www.linkedin.com/in/mike-havrilak-96b1548/" target="blank"><i className="fab fa-linkedin"></i>Linkedin</a></p>
+                <p><a id="github" href="https://github.com/MHavrilak" target="blank"><i className="fab fa-github-square"></i>Github</a></p>   
             </div>
     </nav>
 

@@ -3,6 +3,7 @@
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    border-radius: 25px;
      
 }
 
@@ -18,7 +19,7 @@ h1 {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #dddddd;
+    /* border-bottom: 3px solid #dddddd; */
   }
 
 .main-section {
@@ -29,6 +30,7 @@ h1 {
     margin: 0 0 40px;
     background: lightgrey;
     border: 1px solid black;
+    border-radius: 25px;
   }
 
   #main-container {

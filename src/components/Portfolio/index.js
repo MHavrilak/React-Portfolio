@@ -22,28 +22,32 @@ function Portfolio() {
 
             <div className="work">
                 <img src="Assets/Images/Day-Planner.png" alt="Day Planner" />
-                <a href="https://mhavrilak.github.io/Day-Planner/" target="_blank">
+                <a href="https://mhavrilak.github.io/Day-Planner/" target="blank">
                     <h5>Day Planner</h5>
                 </a>
 
             </div>
             <div className="work">
                 <img src="Assets/Images/Github-Portfolio.png" alt="Github Portfolio" />
-                <a href="https://github.com/MHavrilak" target="_blank">
+                <a href="https://github.com/MHavrilak" target="blank">
                     <h5>Github Profile</h5>
                 </a>
             
             </div>
             <div className="work">
                 <img src="Assets/Images/yappE.png" alt="Project Two" />
-                <a href="https://yappe.herokuapp.com/" target="_blank">
+                <a href="https://yappe.herokuapp.com/" target="blank">
                     <h5>yappE</h5>
                 </a>
             </div>
+            <div className="work">
+                <img src="Assets/Images/resume.png" alt="Resume" />
+                <iframe title="resume" src="file:///C:/Users/Mike%20H/Desktop/michaelhavrilakresume%20copy%20(2).pdf" target="blank" >
+                    <h5>Resume</h5>
+                </iframe>
+            </div>
         </section>
     </div>
-    <a href="https:https://www.linkedin.com/in/mike-havrilak-96b1548/" target="_blank"><i className="fab fa-linkedin"></i></a>
-    <a href="https://github.com/MHavrilak" target="_blank"><i className="fab fa-github-square"></i></a>
     {/* <footer>
         
     </footer> */}

@@ -16,6 +16,8 @@ img {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    border-radius: 10px;
+    border-color: black 1px;
   }
   * {
     box-sizing: border-box;
@@ -25,7 +27,7 @@ h1 {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #dddddd;
+    /* border-bottom: 3px solid #dddddd; */
 }
 
 h1,
