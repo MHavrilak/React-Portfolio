@@ -1,14 +1,12 @@
-.footer {
-    min-height: 100px;
-    background: #E5E5E5;
-    position: relative;
-  }
-  
-  .footer span {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 3px;
-    background: #B8B8B8;
+
+  .footer {
+    padding: 10px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 2px solid black;
+    height: 50px;
   }

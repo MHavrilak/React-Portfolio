@@ -10,7 +10,7 @@ function Hero(props) {
             </video>
 
         <div className="content">
-        <h1>Welcome</h1>
+        <h1 id="welcome">Welcome</h1>
         </div>
             {props.children}
             </div>

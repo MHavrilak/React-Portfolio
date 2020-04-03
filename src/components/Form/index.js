@@ -19,8 +19,7 @@ function contactForm() {
           <input type="text" className="form-control" id="usermessage"/>
        </div>
           <button type="submit" className="btn btn-primary">Submit</button>
-          <p><a href="https:https://www.linkedin.com/in/mike-havrilak-96b1548/" target="_blank"><i className="fab fa-linkedin"></i>Linkedin</a></p>
-          <p><a href="https://github.com/MHavrilak" target="_blank"><i className="fab fa-github-square"></i>Github</a></p>   
+          
       </form> 
       </div>   
          )        
