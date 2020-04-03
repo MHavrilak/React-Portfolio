@@ -10,5 +10,7 @@ video {
     position:fixed;
     color: white;
     width: 100%;
-    top: 50%
+    top: 50%;
+    border-bottom: none;
+    
 }
