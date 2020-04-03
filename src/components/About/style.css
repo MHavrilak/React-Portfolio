@@ -5,7 +5,7 @@
     clear: both;
     /* border-width: ; */
     position: relative;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    
           
 }
 h1,
@@ -30,7 +30,11 @@ h1 {
 #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    
+ }
+
+ section {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
   .auth-image {

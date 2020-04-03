@@ -4,8 +4,9 @@ import "./style.css";
 function contactForm() {
   return (
     <div className="container" id="main-container">
-      <h1> Contact</h1>
+      
     <form className="main-section">
+    <h1> Contact</h1>
     <div className="form-group">
       <label for="username">Name</label>
       <input type="text" className="form-control" id="username" aria-describedby="Name"/>

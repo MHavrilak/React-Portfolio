@@ -9,7 +9,7 @@ function Portfolio() {
                      <h1>Portfolio</h1>
                 <div className="work">
                  <img src="Assets/Images/30-Minute-Workouts.png" alt="Project#1" />
-                 <a href="https://kshep425.github.io/30-Minute-Workouts" target="_blank">
+                 <a href="https://kshep425.github.io/30-Minute-Workouts" target="blank">
                     <h5>30 Minute Workout App</h5>
                  </a>
 
@@ -42,9 +42,9 @@ function Portfolio() {
             </div>
             <div className="work">
                 <img src="Assets/Images/resume.png" alt="Resume" />
-                <iframe title="resume" src="file:///C:/Users/Mike%20H/Desktop/michaelhavrilakresume%20copy%20(2).pdf" target="blank" >
+                <a title="resume" href="file:///C:/Users/Mike%20H/Desktop/michaelhavrilakresume%20copy%20(2).pdf" target="blank" >
                     <h5>Resume</h5>
-                </iframe>
+                </a>
             </div>
         </section>
     </div>
